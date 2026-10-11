@@ -93,7 +93,7 @@ def coeficiente_qini(xs, ys, n):
 
 #DISEÑO DE L APAGINA
 # --- Título y carga de datos ---
-st.title("Laboratorio Final — Starbucks Rewards - Diego Alvarado")
+st.title("Laboratorio Final Starbucks Rewards - Grupo 7 - Diego Alvarado")
 st.caption("Puedes decidir a qué porcentaje de clientes puedes enviar el cupón"
            "para obtener la mayor ganancia, usando el uplift estimado por un modelo T-learner.")
 
