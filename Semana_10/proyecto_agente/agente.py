@@ -32,6 +32,7 @@ for m in client.models.list():
             modelos.append(nombre)
 lite = sorted(m for m in modelos if "flash-lite" in m)
 MODELO = lite[-1] if lite else sorted(modelos)[-1]
+MODELO = "gemini-3.5-flash-lite"
 print("Modelo:", MODELO)
 
 D_MENSUAL = 0.008    # tasa de descuento mensual del curso (0.8%)
